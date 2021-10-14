@@ -6,18 +6,18 @@ description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: selfee.JPG
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Room 405, Montgomery Knight Building</p>
+    <p>270 Ferst Drive, Georgia Institute of Technology</p>
+    <p>Atlanta, GA 30332-0150</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi there, I am a first year PhD in Autonomous Control Decision System (ACDS) Lab at Goeriga Institute of Technology advised by Evangelos Theodorou.
+Hi there, I am a first year PhD in Autonomous Control Decision System (ACDS) Lab at Goeriga Institute of Technology advised by Professor [Evangelos Theodorou](https://ae.gatech.edu/people/evangelos-theodorou).
 
 My research interests are Generative Model, Stochastic Optimal Control, and Large-Scale Optimization.
 
