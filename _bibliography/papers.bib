@@ -2,7 +2,28 @@
 ---
 
 @string{aps = {American Physical Society,}}
-
+@article{liu2021second,
+  title={Second-Order Neural ODE Optimizer},
+  author={Liu, Guan-Horng and Chen, Tianrong and Theodorou, Evangelos A},
+  journal={arXiv preprint arXiv:2109.14158},
+  year={2021},
+  pdf={https://arxiv.org/pdf/2109.14158.pdf},
+  arxiv={https://arxiv.org/abs/2105.03788},
+  abstract={We propose a novel second-order optimization framework for training the emerging deep continuous-time models, specifically the Neural Ordinary Differential
+Equations (Neural ODEs). Since their training already involves expensive gradient
+computation by solving a backward ODE, deriving efficient second-order methods
+becomes highly nontrivial. Nevertheless, inspired by the recent Optimal Control
+(OC) interpretation of training deep networks, we show that a specific continuoustime OC methodology, called Differential Programming, can be adopted to derive
+backward ODEs for higher-order derivatives at the same O(1) memory cost. We
+further explore a low-rank representation of the second-order derivatives and show
+that it leads to efficient preconditioned updates with the aid of Kronecker-based
+factorization. The resulting method converges much faster than first-order baselines
+in wall-clock time, and the improvement remains consistent across various applications, e.g. image classification, generative flow, and time-series prediction. Our
+framework also enables direct architecture optimization, such as the integration
+time of Neural ODEs, with second-order feedback policies, strengthening the OC
+perspective as a principled tool of analyzing optimization in deep learning.},
+  selected={true}
+}
 @book{einstein1956investigations,
   bibtex_show={true},
   title={Investigations on the Theory of the Brownian Movement},
