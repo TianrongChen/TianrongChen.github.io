@@ -7,6 +7,7 @@
   author={Liu, Guan-Horng and Chen, Tianrong and Theodorou, Evangelos A},
   journal={arXiv preprint arXiv:2109.14158},
   year={2021},
+  bibtex_show={true},
   pdf={https://arxiv.org/pdf/2109.14158.pdf},
   arxiv={https://arxiv.org/abs/2105.03788},
   abstract={We propose a novel second-order optimization framework for training the emerging deep continuous-time models, specifically the Neural Ordinary Differential
@@ -24,6 +25,39 @@ time of Neural ODEs, with second-order feedback policies, strengthening the OC
 perspective as a principled tool of analyzing optimization in deep learning.},
   selected={true}
 }
+
+@article{liu2021dynamic,
+  title={Dynamic Game Theoretic Neural Optimizer},
+  author={Liu, Guan-Horng and Chen, Tianrong and Theodorou, Evangelos A},
+  journal={arXiv preprint arXiv:2105.03788},
+  year={2021},
+  bibtex_show={true},
+  abstract={The connection between training deep neural networks (DNNs) and optimal control theory (OCT) has attracted considerable attention as a principled tool of algorithmic design. Despite few attempts being made, they have been limited to architectures where the layer propagation resembles a Markovian dynamical system. This casts doubts on their flexibility to modern networks that heavily rely on non-Markovian dependencies between layers (e.g. skip connections in residual networks). In this work, we propose a novel dynamic game perspective by viewing each layer as a player in a dynamic game characterized by the DNN itself. Through this lens, different classes of optimizers can be seen as matching different types of Nash equilibria, depending on the implicit information structure of each (p)layer. The resulting method, called Dynamic Game Theoretic Neural Optimizer (DGNOpt), not only generalizes OCT-inspired optimizers to richer network class; it also motivates a new training principle by solving a multi-player cooperative game. DGNOpt shows convergence improvements over existing methods on image classification datasets with residual and inception networks. Our work marries strengths from both OCT and game theory, paving ways to new algorithmic opportunities from robust optimal control and bandit-based optimization.},
+  arxiv={https://arxiv.org/abs/2105.03788},
+  pdf={https://arxiv.org/pdf/2105.03788.pdf},
+  poster={https://docs.google.com/presentation/d/1Pm-5h_0jji6ocsarzhdjXZpBpTtwr9kx44fyyU67hH4/edit?usp=sharing},
+  slides={https://icml.cc/media/icml-2021/Slides/10261.pdf},
+  video={https://icml.cc/virtual/2021/poster/10261},
+  select={true}
+}
+
+@inproceedings{chen2021large,
+  title={Large-Scale Multi-Agent Deep FBSDEs},
+  author={Chen, Tianrong and Wang, Ziyi O and Exarchos, Ioannis and Theodorou, Evangelos},
+  booktitle={International Conference on Machine Learning},
+  pages={1740--1748},
+  year={2021},
+  organization={PMLR},
+  bibtex_show={true},
+  abstract={In this paper we present a scalable deep learning framework for finding Markovian Nash Equilibria in multi-agent stochastic games using fictitious play. The motivation is inspired by theoretical analysis of Forward Backward Stochastic Differential Equations (FBSDE) and their implementation in a deep learning setting, which is the source of our algorithm's sample efficiency improvement. By taking advantage of the permutation-invariant property of agents in symmetric games, the scalability and performance is further enhanced significantly. We showcase superior performance of our framework over the state-of-the-art deep fictitious play algorithm on an inter-bank lending/borrowing problem in terms of multiple metrics. More importantly, our approach scales up to 3000 agents in simulation, a scale which, to the best of our knowledge, represents a new state-of-the-art. We also demonstrate the applicability of our framework in robotics on a belief space autonomous racing problem.},
+  arxiv={https://arxiv.org/abs/2011.10890},
+  pdf={https://arxiv.org/pdf/2011.10890.pdf},
+  poster={https://github.com/TianrongChen/SFP-FBSDE/blob/main/ICML2021_FP_FBSDE_Poster.pdf},
+  slides={https://github.com/TianrongChen/SFP-FBSDE/blob/main/_ICML2021__Presentation_large_Scale_Multi_Agent_Deep_FBSDEs.pdf},
+  video={https://slideslive.com/38958966/largescale-multiagent-deep-fbsdes?ref=search},
+  select={true}
+}
+
 @book{einstein1956investigations,
   bibtex_show={true},
   title={Investigations on the Theory of the Brownian Movement},
