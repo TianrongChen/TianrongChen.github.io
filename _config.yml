@@ -77,7 +77,7 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # -----------------------------------------------------------------------------
 
 blog_name: TianrongChen's Researches  # your blog must have a name for it to show up in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_description: History of iamctR's reseaches!
 permalink: /blog/:year/:title/
 
 # Pagination
