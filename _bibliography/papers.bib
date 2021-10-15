@@ -61,6 +61,48 @@ perspective as a principled tool of analyzing optimization in deep learning.},
   selected={true}
 }
 
+@article{liu2020ddpnopt,
+  title={DDPNOpt: Differential Dynamic Programming Neural Optimizer},
+  abbr={ICLR 2021},
+  bibtex_show={true},
+  author={Liu, Guan-Horng and Chen, Tianrong and Theodorou, Evangelos A},
+  journal={arXiv preprint arXiv:2002.08809},
+  year={2020},
+  abstract={Interpretation of Deep Neural Networks (DNNs) training as an optimal control problem with nonlinear dynamical systems has received considerable attention recently, yet the algorithmic development remains relatively limited. In this work, we make an attempt along this line by reformulating the training procedure from the trajectory optimization perspective. We first show that most widely-used algorithms for training DNNs can be linked to the Differential Dynamic Programming (DDP), a celebrated second-order method rooted in the Approximate Dynamic Programming. In this vein, we propose a new class of optimizer, DDP Neural Optimizer (DDPNOpt), for training feedforward and convolution networks. DDPNOpt features layer-wise feedback policies which improve convergence and reduce sensitivity to hyper-parameter over existing methods. It outperforms other optimal-control inspired training methods in both convergence and complexity, and is competitive against state-of-the-art first and second order methods. We also observe DDPNOpt has surprising benefit in preventing gradient vanishing. Our work opens up new avenues for principled algorithmic design built upon the optimal control theory.},
+  arxiv={https://arxiv.org/abs/2002.08809},
+  pdf={https://arxiv.org/pdf/2002.08809.pdf},
+  poster={https://docs.google.com/presentation/d/1OBW4bXZMDp27smv0za15EjnOV07jC1TpIwA0ww-vlyM/edit?usp=sharing},
+  slides={https://drive.google.com/file/d/1hCMEGjE5Zt6WYN4TUAAsvj9QlxhsTlHG/view},
+  video={https://iclr.cc/virtual/2021/spotlight/3512},
+  selected={true}
+}
+@inproceedings{pereira2020feynman,
+  title={Feynman-Kac Neural Network Architectures for Stochastic Control Using Second-Order FBSDE Theory},
+  author={Pereira, Marcus and Wang, Ziyi and Chen, Tianrong and Reed, Emily and Theodorou, Evangelos},
+  booktitle={Learning for Dynamics and Control},
+  pages={728--738},
+  year={2020},
+  organization={PMLR}
+  abbr={L4DC 2020},
+  bibtex_show={true},
+  abstract={We present a deep recurrent neural network architecture to solve a class of stochastic optimal
+control problems described by fully nonlinear Hamilton Jacobi Bellman partial differential equations.
+Such PDEs arise when considering stochastic dynamics characterized by uncertainties that are
+additive, state dependent, and control multiplicative. Stochastic models with these characteristics
+are important in computational neuroscience, biology, finance, and aerospace systems and provide
+a more accurate representation of actuation than models with only additive uncertainty. Previous
+literature has established the inadequacy of the linear HJB theory for such problems, so instead,
+methods relying on the generalized version of the Feynman-Kac lemma have been proposed resulting
+in a system of second-order Forward-Backward SDEs. However, so far, these methods suffer from
+compounding errors resulting in lack of scalability. In this paper, we propose a deep learning based
+algorithm that leverages the second-order FBSDE representation and LSTM-based recurrent neural
+networks to not only solve such stochastic optimal control problems but also overcome the problems
+faced by traditional approaches, including scalability. The resulting control algorithm is tested on
+a high-dimensional linear system and three nonlinear systems from robotics and biomechanics in
+simulation to demonstrate feasibility and out-performance against previous methods.},
+  pdf={http://proceedings.mlr.press/v120/pereira20a/pereira20a.pdf},
+  selected={true}  
+}
 
 
 @book{einstein1956investigations,
@@ -101,7 +143,6 @@ perspective as a principled tool of analyzing optimization in deep learning.},
   url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
   html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
   pdf={example_pdf.pdf},
-  selected={true}
 }
 
 @article{einstein1905molekularkinetischen,
