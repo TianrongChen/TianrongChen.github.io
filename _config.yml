@@ -155,7 +155,7 @@ github: [metadata]
 scholar:
 
   last_name: Chen
-  first_name: [T,Tianrong]
+  first_name: [T,Tianrong,Tianrong*,T*]
 
   style: apa
   locale: en
