@@ -2,8 +2,31 @@
 ---
 
 @string{aps = {American Physical Society,}}
+@article{liu2022deep,
+  abbr={NeurIPS 2022},
+  title={Deep Generalized Schr$\backslash$" odinger Bridge},
+  author={Liu, Guan-Horng and Chen, Tianrong and So, Oswin and Theodorou, Evangelos A},
+  journal={arXiv preprint arXiv:2110.11291},
+  year={2022},
+  bibtex_show={true},
+  pdf={https://arxiv.org/abs/2209.09893},
+  abstract={Mean-Field Game (MFG) serves as a crucial mathematical framework in modeling the collective behavior of individual agents interacting stochastically with a large population. In this work, we aim at solving a challenging class of MFGs in which the differentiability of these interacting preferences may not be available to the solver, and the population is urged to converge exactly to some desired distribution. These setups are, despite being well-motivated for practical purposes, complicated enough to paralyze most (deep) numerical solvers. Nevertheless, we show that Schrödinger Bridge - as an entropy-regularized optimal transport model - can be generalized to accepting mean-field structures, hence solving these MFGs. This is achieved via the application of Forward-Backward Stochastic Differential Equations theory, which, intriguingly, leads to a computational framework with a similar structure to Temporal Difference learning. As such, it opens up novel algorithmic connections to Deep Reinforcement Learning that we leverage to facilitate practical training. We show that our proposed objective function provides necessary and sufficient conditions to the mean-field problem. Our method, named Deep Generalized Schrödinger Bridge (DeepGSB), not only outperforms prior methods in solving classical population navigation MFGs, but is also capable of solving 1000-dimensional opinion depolarization, setting a new state-of-the-art numerical solver for high-dimensional MFGs.},
+  selected={true}
+}
+
+@article{chen2022deep,
+  abbr={CDC 2022},
+  title={Deep Graphic FBSDEs for Opinion Dynamics Stochastic Control},
+  author={Chen, Tianrong and Wang, Ziyi and Theodorou, Evangelos A},
+  journal={arXiv preprint arXiv:2204.02506},
+  year={2022}
+  bibtex_show={true},
+  pdf={https://arxiv.org/abs/2204.02506},
+  abstract={In this paper, we present a scalable deep learning approach to solve opinion dynamics stochastic optimal control problems with mean field term coupling in the dynamics and cost function. Our approach relies on the probabilistic representation of the solution of the Hamilton-Jacobi-Bellman partial differential equation. Grounded on the nonlinear version of the Feynman-Kac lemma, the solutions of the Hamilton-Jacobi-Bellman partial differential equation are linked to the solution of Forward-Backward Stochastic Differential Equations. These equations can be solved numerically using a novel deep neural network with architecture tailored to the problem in consideration. The resulting algorithm is tested on a polarized opinion consensus experiment. The large-scale (10K) agents experiment validates the scalability and generalizability of our algorithm. The proposed framework opens up the possibility for future applications on extremely large-scale problems.},
+  selected={true}
+}
 @article{chen2021likelihood,
-  abbr={Arxiv},
+  abbr={ICLR 2022},
   title={Likelihood Training of Schr\"odinger Bridge using Forward-Backward SDEs Theory},
   author={Chen, Tianrong* and Liu, Guan-Horng* and Theodorou, Evangelos A},
   journal={arXiv preprint arXiv:2110.11291},
