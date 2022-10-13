@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi there, I am a first year PhD in Autonomous Control Decision System (ACDS) Lab at Goeriga Institute of Technology advised by Professor [Evangelos Theodorou](https://ae.gatech.edu/people/evangelos-theodorou).
+Hi there, I am a senior PhD in Autonomous Control Decision System (ACDS) Lab at Goeriga Institute of Technology advised by Professor [Evangelos Theodorou](https://ae.gatech.edu/people/evangelos-theodorou).
 
 My research interests are Generative Model, Stochastic Optimal Control, and Large-Scale Optimization.
 
