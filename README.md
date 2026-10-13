@@ -1,3 +1,13 @@
+# Tianrong Chen — Research homepage
+
+The current homepage is generated from `_homepage/index.html` and
+`_homepage/publications.json` with `python3 _homepage/build.py`.
+See [_homepage/README.md](_homepage/README.md) for editing and publishing.
+GitHub Pages serves the `gh-pages` branch; the `master` branch preserves the
+Jekyll sources for historical pages alongside the current static homepage.
+
+---
+
 # al-folio
 
 [![build status](https://travis-ci.org/alshedivat/al-folio.svg?branch=master)](https://travis-ci.org/alshedivat/al-folio)
