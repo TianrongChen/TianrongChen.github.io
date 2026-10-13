@@ -50,7 +50,7 @@
     "authors": "Ying Shen, Tianrong Chen, Yuan Gao, Yizhe Zhang, Yuyang Wang, Miguel Angel Bautista, Shuangfei Zhai, Josh Susskind, Jiatao Gu",
     "year": 2026,
     "venue": "NeurIPS",
-    "category": "generative",
+    "category": "vision",
     "url": "https://arxiv.org/abs/2605.08029",
     "selected": true,
     "summary": "Bringing language models and normalizing flows together for unified multimodal generation."
@@ -61,7 +61,7 @@
     "authors": "Jiatao Gu, Tianrong Chen, Ying Shen, David Berthelot, Shuangfei Zhai, Josh Susskind",
     "year": 2026,
     "venue": "NeurIPS",
-    "category": "generative",
+    "category": "vision",
     "url": "https://arxiv.org/abs/2605.08078",
     "selected": false
   },
@@ -71,7 +71,7 @@
     "authors": "Tianrong Chen, Jiatao Gu, David Berthelot, Josh Susskind, Shuangfei Zhai",
     "year": 2026,
     "venue": "ICML",
-    "category": "generative",
+    "category": "vision",
     "url": "https://arxiv.org/abs/2604.20041",
     "selected": true,
     "code": "https://github.com/apple/ml-itarflow",
@@ -83,7 +83,7 @@
     "authors": "David Berthelot, Tianrong Chen, Jiatao Gu, Marco Cuturi, Laurent Dinh, Bhavik Chandna, Michal Klein, Josh Susskind, Shuangfei Zhai",
     "year": 2026,
     "venue": "Preprint",
-    "category": "generative",
+    "category": "vision",
     "url": "https://arxiv.org/abs/2603.09014",
     "selected": false
   },
@@ -93,7 +93,7 @@
     "authors": "Yuan Gao, Chen Chen, Tianrong Chen, Jiatao Gu",
     "year": 2026,
     "venue": "CVPR",
-    "category": "generative",
+    "category": "vision",
     "url": "https://arxiv.org/abs/2512.07829",
     "selected": false
   },
@@ -103,7 +103,7 @@
     "authors": "Jiatao Gu, Ying Shen, Tianrong Chen, Laurent Dinh, Yuyang Wang, Miguel Angel Bautista, David Berthelot, Josh Susskind, Shuangfei Zhai",
     "year": 2026,
     "venue": "CVPR",
-    "category": "generative",
+    "category": "vision",
     "url": "https://arxiv.org/abs/2511.20462",
     "selected": false,
     "code": "https://github.com/apple/ml-starflow"
@@ -114,7 +114,7 @@
     "authors": "Tianrong Chen, Huangjie Zheng, David Berthelot, Jiatao Gu, Josh Susskind, Shuangfei Zhai",
     "year": 2025,
     "venue": "NeurIPS",
-    "category": "generative",
+    "category": "vision",
     "url": "https://arxiv.org/abs/2506.21757",
     "selected": true,
     "code": "https://github.com/apple/ml-tada",
@@ -126,7 +126,7 @@
     "authors": "Jiatao Gu, Tianrong Chen, David Berthelot, Huangjie Zheng, Yuyang Wang, Ruixiang Zhang, Laurent Dinh, Miguel Angel Bautista, Josh Susskind, Shuangfei Zhai",
     "year": 2025,
     "venue": "NeurIPS",
-    "category": "generative",
+    "category": "vision",
     "url": "https://arxiv.org/abs/2506.06276",
     "selected": true,
     "summary": "Scaling normalizing flows to high-resolution image synthesis."
@@ -137,7 +137,7 @@
     "authors": "Shuangfei Zhai, Ruixiang Zhang, Preetum Nakkiran, David Berthelot, Jiatao Gu, Huangjie Zheng, Tianrong Chen, Miguel Angel Bautista, Navdeep Jaitly, Josh Susskind",
     "year": 2025,
     "venue": "ICML",
-    "category": "generative",
+    "category": "vision",
     "url": "https://arxiv.org/abs/2412.06329",
     "selected": true,
     "code": "https://github.com/apple/ml-tarflow",
@@ -149,7 +149,7 @@
     "authors": "Guan-Horng Liu, Tianrong Chen, Evangelos A. Theodorou",
     "year": 2025,
     "venue": "IEEE TPAMI",
-    "category": "foundations",
+    "category": "optimization",
     "url": "https://arxiv.org/abs/2510.14168",
     "selected": false
   },
@@ -159,7 +159,7 @@
     "authors": "Guan-Horng Liu, Tianrong Chen, Evangelos A. Theodorou",
     "year": 2025,
     "venue": "NeurIPS",
-    "category": "foundations",
+    "category": "vision",
     "url": "https://arxiv.org/abs/2412.20279",
     "selected": false
   },
@@ -169,7 +169,7 @@
     "authors": "Tianrong Chen, Guan-Horng Liu, Molei Tao, Evangelos A. Theodorou",
     "year": 2023,
     "venue": "NeurIPS",
-    "category": "foundations",
+    "category": "science",
     "url": "https://arxiv.org/abs/2303.01751",
     "selected": false
   },
@@ -179,7 +179,7 @@
     "authors": "Guan-Horng Liu, Tianrong Chen, Evangelos A. Theodorou",
     "year": 2023,
     "venue": "NeurIPS",
-    "category": "foundations",
+    "category": "vision",
     "url": "https://arxiv.org/abs/2310.01236",
     "selected": false
   },
@@ -189,7 +189,7 @@
     "authors": "Tianrong Chen*, Guan-Horng Liu*, Evangelos A. Theodorou",
     "year": 2022,
     "venue": "ICLR",
-    "category": "foundations",
+    "category": "vision",
     "url": "https://arxiv.org/abs/2110.11291",
     "selected": true,
     "summary": "A forward-backward SDE framework for likelihood training of Schrödinger bridges."
@@ -200,7 +200,7 @@
     "authors": "Guan-Horng Liu, Tianrong Chen, Oswin So, Evangelos A. Theodorou",
     "year": 2022,
     "venue": "NeurIPS",
-    "category": "foundations",
+    "category": "optimization",
     "url": "https://arxiv.org/abs/2209.09893",
     "selected": false,
     "note": "Oral"
@@ -211,7 +211,7 @@
     "authors": "Valentin De Bortoli, Guan-Horng Liu, Tianrong Chen, Evangelos A. Theodorou, Weilie Nie",
     "year": 2023,
     "venue": "Preprint",
-    "category": "foundations",
+    "category": "vision",
     "url": "https://arxiv.org/abs/2311.06978",
     "selected": false
   },
@@ -221,7 +221,7 @@
     "authors": "Tianrong Chen, Jiatao Gu, Laurent Dinh, Evangelos A. Theodorou, Josh Susskind, Shuangfei Zhai",
     "year": 2024,
     "venue": "ICLR",
-    "category": "foundations",
+    "category": "vision",
     "url": "https://arxiv.org/abs/2310.07805",
     "selected": true,
     "note": "Oral",
@@ -233,7 +233,7 @@
     "authors": "Tianrong Chen*, Yuchen Zhu*, Lingkai Kong, Evangelos A. Theodorou, Molei Tao",
     "year": 2025,
     "venue": "ICLR",
-    "category": "foundations",
+    "category": "science",
     "url": "https://arxiv.org/abs/2405.16381",
     "selected": false
   },
@@ -243,7 +243,7 @@
     "authors": "Panagiotis Theodoropoulos, Guan-Horng Liu, Tianrong Chen, Augustinos D. Saravanos, Evangelos A. Theodorou",
     "year": 2024,
     "venue": "ICLR",
-    "category": "foundations",
+    "category": "optimization",
     "url": "https://openreview.net/forum?id=zbOSJ3CATY",
     "selected": false
   },
@@ -253,7 +253,7 @@
     "authors": "Panagiotis Theodoropoulos, Guan-Horng Liu, Tianrong Chen, Evangelos A. Theodorou",
     "year": 2023,
     "venue": "ICML Frontiers4LCD Workshop",
-    "category": "foundations",
+    "category": "optimization",
     "url": "https://openreview.net/pdf?id=RgpyV04pYj",
     "selected": false
   },
@@ -263,7 +263,7 @@
     "authors": "Guan-Horng Liu, Tianrong Chen, Evangelos A. Theodorou",
     "year": 2021,
     "venue": "NeurIPS",
-    "category": "foundations",
+    "category": "optimization",
     "url": "https://arxiv.org/abs/2109.14158",
     "selected": false,
     "note": "Spotlight"
@@ -274,7 +274,7 @@
     "authors": "Tianrong Chen, Ziyi Wang, Ioannis Exarchos, Evangelos A. Theodorou",
     "year": 2021,
     "venue": "ICML",
-    "category": "foundations",
+    "category": "optimization",
     "url": "https://arxiv.org/abs/2011.10890",
     "selected": false,
     "note": "Spotlight",
@@ -286,7 +286,7 @@
     "authors": "Guan-Horng Liu, Tianrong Chen, Evangelos A. Theodorou",
     "year": 2021,
     "venue": "ICML",
-    "category": "foundations",
+    "category": "optimization",
     "url": "https://arxiv.org/abs/2105.03788",
     "selected": false,
     "note": "Oral"
@@ -297,7 +297,7 @@
     "authors": "Guan-Horng Liu, Tianrong Chen, Evangelos A. Theodorou",
     "year": 2021,
     "venue": "ICLR",
-    "category": "foundations",
+    "category": "optimization",
     "url": "https://arxiv.org/abs/2002.08809",
     "selected": false,
     "note": "Spotlight"
@@ -308,7 +308,7 @@
     "authors": "Tianrong Chen, Ziyi Wang, Evangelos A. Theodorou",
     "year": 2022,
     "venue": "IEEE CDC",
-    "category": "foundations",
+    "category": "optimization",
     "url": "https://arxiv.org/abs/2204.02506",
     "selected": false
   },
@@ -318,7 +318,7 @@
     "authors": "Marcus A. Pereira*, Ziyi Wang*, Tianrong Chen*, Emily Reed, Evangelos A. Theodorou",
     "year": 2020,
     "venue": "L4DC",
-    "category": "foundations",
+    "category": "optimization",
     "url": "https://proceedings.mlr.press/v120/pereira20a.html",
     "selected": false
   },
@@ -328,7 +328,7 @@
     "authors": "Chenru Duan, Guan-Horng Liu, Yuanqi Du, Tianrong Chen, Qiyuan Zhao, Haojun Jia, Carla P. Gomes, Evangelos A. Theodorou, Heather J. Kulik",
     "year": 2025,
     "venue": "Nature Machine Intelligence",
-    "category": "foundations",
+    "category": "science",
     "url": "https://www.nature.com/articles/s42256-025-01010-0",
     "selected": false
   },
@@ -338,7 +338,7 @@
     "authors": "Yuchen Zhu, Tianrong Chen, Evangelos A. Theodorou, Xie Chen, Molei Tao",
     "year": 2024,
     "venue": "Preprint",
-    "category": "foundations",
+    "category": "science",
     "url": "https://arxiv.org/abs/2404.06336",
     "selected": false
   }
