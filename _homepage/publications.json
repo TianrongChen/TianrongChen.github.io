@@ -200,7 +200,7 @@
     "authors": "Guan-Horng Liu, Tianrong Chen, Oswin So, Evangelos A. Theodorou",
     "year": 2022,
     "venue": "NeurIPS",
-    "category": "optimization",
+    "category": "science",
     "url": "https://arxiv.org/abs/2209.09893",
     "selected": false,
     "note": "Oral"
@@ -274,7 +274,7 @@
     "authors": "Tianrong Chen, Ziyi Wang, Ioannis Exarchos, Evangelos A. Theodorou",
     "year": 2021,
     "venue": "ICML",
-    "category": "optimization",
+    "category": "science",
     "url": "https://arxiv.org/abs/2011.10890",
     "selected": false,
     "note": "Spotlight",
