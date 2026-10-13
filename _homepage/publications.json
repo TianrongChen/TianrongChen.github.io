@@ -8,7 +8,6 @@
     "category": "language",
     "url": "https://arxiv.org/abs/2610.02185",
     "selected": true,
-    "note": "Co-mentor",
     "summary": "Training-free contrastive decoding that halves recurrent loops at matched quality, with 22.5–48.2% fewer forward FLOPs."
   },
   {
